@@ -66,3 +66,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### My Personal notes
+In this file, App.js is my main file.
+
+In Components/section --> you can find the "main" file which contains the main and navigation with their css files. Main contains the blogs and nav contains the home link and the google news which refresh automatically after every 5 seconds.
+
+In blogs, you can find all the blogs. I have given the path only to open the blog statically.
+
+In Components there are "Header" and "Footer" file with their css files.
+
+I have used axios, bootsrap, router, hashrouter, react-router-dom and dotenv.
