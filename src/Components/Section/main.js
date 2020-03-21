@@ -29,7 +29,7 @@ componentWillUnmount() {
 getArticles = () => {
     console.log("Getting Articles");
 
-    Axios.get('https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=5369108b77e24a0fa1e182e1725390c3')
+    Axios.get('https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=')
         .then(
             res => {
                 console.log(res.data.articles);
